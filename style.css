@@ -1,0 +1,111 @@
+/*baslig*/
+body{ 
+    font-family: 'Roboto', sans-serif;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&display=swap');
+header{
+    display: flex;
+    justify-content: space-evenly;
+}
+.logo{
+    display: flex;
+}
+.logo .cr{
+    margin: 13.4px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.nav1 li a{
+    color: #667185;
+}
+.logo h1{
+    font-size: 20px;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+summary{
+    list-style: none;
+}
+nav{
+    
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+nav>ul {
+    color: #667185;
+    display: flex;
+    padding: 0;
+ }
+ nav ul>li{
+    
+    padding: 0;
+    margin-left: 20px;
+ }
+ .navprofil{
+    margin-top: 6px;
+ }
+.login{
+    display: block;
+    padding: 10px;
+    color: #667185
+}
+.singu{
+    display: block;
+    color: white;
+    background-color: #0000ee;
+    padding: 10px;
+    border-radius:10px; 
+}
+
+/*section*/
+.post{
+    display: flex;
+}
+.sag{
+    width: 50%;
+    background-color: #F9FAFC;
+}
+.sol{
+    width: 50%;
+   
+    padding: 150px  30px 0  30px ;
+}
+.postti span{
+    color: #0000ee;
+}
+.postti h2{
+    font-size:44px ;
+    font-weight: 500;
+}
+.postti p{
+    color: #667185;
+    font-size: 15px;
+}
+.postprof{
+    display: flex;
+}
+.prof{
+    padding: 18px;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+}
+.sag {
+    display: flex;
+    justify-content: center;
+}
+.info{
+    padding-top: 100px;
+    width: 55%;
+    margin: auto;
+}
+.info p{
+    color: #667185;
+}
